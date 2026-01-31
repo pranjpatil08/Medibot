@@ -64,6 +64,7 @@ Just clarity.
 5. ChromaDB (Vector Database)
 
 ✨Installation
+
 git clone <repo-url>
 cd MediBot
 python -m venv venv
