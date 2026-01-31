@@ -27,32 +27,33 @@ Just clarity.
 4. Source Citation📌: Shows where the answer came from.
 5. Safety Guardrails🛡: Rejects non-document or diagnostic questions.
 6. Domain-Specific Behavior🧠: Built specifically for healthcare documents.
-         ┌──────────────┐
-         │   User UI    │
-         │ (Streamlit)  │
-         └──────┬───────┘
-                │
-                ▼
-         ┌──────────────┐
-         │  FastAPI     │
-         │   Backend    │
-         └──────┬───────┘
-                │
-┌────────────────┼────────────────┐
-▼                ▼                ▼
-PDF Loader   Text Splitter   Embeddings (Sentence-BERT)
-                │
-                ▼
-Vector Store (ChromaDB)
-                │
-                ▼
-Retriever
-                │
-                ▼
-LLM
-                │
-                ▼
-Answer + Sources
+       # 🏗 Architecture
+
+```
+        🖥 User UI (Streamlit)
+                    │
+                    ▼
+          ⚡ FastAPI Backend
+                    │
+                    ▼
+        📄 PDF Loader & Text Splitter
+                    │
+                    ▼
+        🧠 Embeddings (Sentence-BERT)
+                    │
+                    ▼
+        📦 Vector Store (ChromaDB)
+                    │
+                    ▼
+        🔎 Retriever
+                    │
+                    ▼
+        🤖 LLM
+                    │
+                    ▼
+        ✅ Answer + Sources
+```
+
 
 
 ✨Technical Stack:
