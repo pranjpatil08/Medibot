@@ -2,9 +2,13 @@
 MediBot is a domain-specific medical document intelligence system that enables patients, students, and healthcare professionals to interactively query medical PDFs and receive accurate, context-grounded answers strictly sourced from their documents.
 
 We’ve all opened a medical report and felt this:
+
 pages of clinical terms
+
 long paragraphs
+
 numbers we don’t understand
+
 and no clear answers
 
 You shouldn’t be in a dilemma to understand your own health information.
@@ -12,10 +16,13 @@ You shouldn’t be in a dilemma to understand your own health information.
 So I built MediBot.🩺
 
 1 Upload your reports
+
 2 Ask questions naturally
+
 3 Get answers only from your documents
 
 Nothing invented.
+
 Nothing guessed.
 
 Just clarity.
@@ -66,7 +73,11 @@ Just clarity.
 ✨Installation
 
 git clone <repo-url>
+
 cd MediBot
+
 python -m venv venv
+
 venv\Scripts\activate
+
 pip install -r requirements.txt
