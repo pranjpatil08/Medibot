@@ -3,23 +3,23 @@ MediBot is a domain-specific medical document intelligence system that enables p
 
 We’ve all opened a medical report and felt this:
 
-pages of clinical terms
+📄 pages of clinical terms  
 
-long paragraphs
+📚 long paragraphs  
 
-numbers we don’t understand
+🔢 numbers we don’t understand 
 
-and no clear answers
+❓ and no clear answers  
 
 You shouldn’t be in a dilemma to understand your own health information.
 
 So I built MediBot.🩺
 
-1 Upload your reports
+1️⃣ Upload your reports
 
-2 Ask questions naturally
+2️⃣ Ask questions naturally
 
-3 Get answers only from your documents
+3️⃣  Get answers only from your documents
 
 Nothing invented.
 
